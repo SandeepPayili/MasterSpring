@@ -13,6 +13,13 @@ public class Doctor implements Staff{
 
 //    public Nurse getNurse() {
 //        return nurse;
+
+    @Override
+    public String toString() {
+        return "Doctor{" +
+                "qualification='" + qualification + '\'' +
+                '}';
+    }
 //    }
 //
 //    public void setNurse(Nurse nurse) {
