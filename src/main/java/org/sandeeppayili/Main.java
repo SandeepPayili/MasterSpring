@@ -1,5 +1,6 @@
 package org.sandeeppayili;
 
+import org.masteraop.ShoppingCart;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -38,7 +39,10 @@ public class Main {
 //        Doctor doctor1 = context.getBean(Doctor.class);
 //        System.out.println(doctor1);
 
+        ShoppingCart shoppingCart = context.getBean(ShoppingCart.class);
+        shoppingCart.checkout();
 
+        shoppingCart.greet("SANDEEP PAYILI");
     }
 
 }
