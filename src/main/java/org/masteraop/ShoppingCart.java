@@ -10,4 +10,8 @@ public class ShoppingCart {
     public void greet(String name){
         System.out.println("SPXXX :: Warm Wishes :: "+name);
     }
+
+    public int price(){
+        return 100;
+    }
 }

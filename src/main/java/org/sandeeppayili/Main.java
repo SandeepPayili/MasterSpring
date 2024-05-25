@@ -43,6 +43,8 @@ public class Main {
         shoppingCart.checkout();
 
         shoppingCart.greet("SANDEEP PAYILI");
+        int price = shoppingCart.price();
+        System.out.println("SPXXX :: Shopping Cart Price :: "+price);
     }
 
 }
