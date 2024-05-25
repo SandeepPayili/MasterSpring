@@ -28,8 +28,8 @@ public class Main {
 //        System.out.println("SPXXX :: staff qualification :: "+staff.getQualification());
 //        staff.getNurse().assist();
 
-        Doctor staff = context.getBean(Doctor.class);
-        System.out.println("SPXXX :: Doctor Qualification :: "+ staff.getQualification());
+        Staff staff = context.getBean(Nurse.class);
+        staff.assist();
 
     }
 

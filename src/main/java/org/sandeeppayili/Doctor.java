@@ -1,10 +1,13 @@
 package org.sandeeppayili;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Doctor implements Staff{
 
-    public Doctor(String qualification) {
-        this.qualification = qualification;
-    }
+//    public Doctor(String qualification) {
+//        this.qualification = qualification;
+//    }
 
     private String qualification;
 
